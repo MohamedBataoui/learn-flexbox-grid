@@ -1,0 +1,26 @@
+body.dark-theme {
+  background-color: var(--dark-color);
+  color: var(--text-light);
+}
+
+body.dark-theme .navbar {
+  background-color: var(--secondary-color);
+  color: var(--text-light);
+}
+
+body.dark-theme .navbar a {
+  color: var(--text-light);
+}
+
+body.dark-theme .theme-toggle {
+  color: var(--text-light);
+}
+
+body.dark-theme .footer {
+  color: var(--text-light); /* Assurer que le texte soit blanc */
+}
+
+body.dark-theme .grid-input,
+body.dark-theme .cell {
+  color: var(--text-light);
+}

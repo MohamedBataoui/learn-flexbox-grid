@@ -1,0 +1,93 @@
+.flexbox-page {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 40px; /* Ajout d'un espace entre les sections */
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.explanation {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 4px;
+}
+
+.output {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.preview-container,
+.code-container {
+  width: 45%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.code-container {
+  background-color: #2d2d2d; /* Arrière-plan noir */
+  color: white; /* Texte en blanc */
+  position: relative;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.copy-button svg {
+  margin-right: 5px;
+}
+
+.copy-button:hover {
+  background: #0056b3;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  height: 100%;
+  border: 1px solid #ccc;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex: 1;
+}

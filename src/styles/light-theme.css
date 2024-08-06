@@ -1,0 +1,26 @@
+body.light-theme {
+  background-color: var(--light-color);
+  color: var(--text-dark);
+}
+
+body.light-theme .navbar {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+body.light-theme .navbar a {
+  color: var(--text-light);
+}
+
+body.light-theme .theme-toggle {
+  color: var(--text-light);
+}
+
+body.light-theme .footer {
+  color: var(--text-dark); /* Changer la couleur du texte en noir */
+}
+
+body.light-theme .grid-input,
+body.light-theme .cell {
+  color: var(--text-dark);
+}
